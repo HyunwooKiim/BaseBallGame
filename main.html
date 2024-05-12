@@ -61,6 +61,24 @@
             color: white;
             text-decoration: none;
         }
+        .rule{
+            margin: 0 auto;
+            display: table;
+            width: 100px;
+            height: 50px;
+            background-color: gray;
+            border-radius: 10%;
+            transition: all 0.1s linear;
+            text-align: center;
+        }
+        .rule:hover{
+            transform: scale(1.1);
+            background-color: orange;
+        }
+        .rule__text{
+            display: table-cell;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
@@ -70,19 +88,24 @@
     <img class="bbimg" src="baseballimg.jpg">
     <br><br><br><br>
     
-    <br><br>
+    
         <div class="start">
             <a href="selectgame.html">
                 <span class="start__text"><br><h1>시작하기</h1></span>
             </a>
         </div>
     <br><br>
-    <div class="option"> 
+    <div class="rule"> 
         <a href="rule.html">
-            <span class="option__text"><br><b>룰 설명</b></span>
+            <span class="rule__text"><br><b>룰 설명</b></span>
         </a>
     </div>
     <br><br>
+    <div class="option"> 
+        <a href="option.html">
+            <span class="option__text"><br><b>설정</b></span>
+        </a>
+    </div>
     
 </body>
 </html>
