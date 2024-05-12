@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
-public class BaseBallGameProject0511 {
+public class BaseBallGameProject0512 {
 
     public static void main(String[] args) {
 
@@ -34,9 +34,10 @@ public class BaseBallGameProject0511 {
                         }
                     }
                 }
-            System.out.print(ans[i] + " ");
+            //System.out.print(ans[i] + " ");
         }
         int life = 9;
+        System.out.println("--야구게임--\n숫자 세개를 입력해 주세요.");
         while(life>0) {
             System.out.println("");
             int strike = 0;
@@ -67,6 +68,9 @@ public class BaseBallGameProject0511 {
                 life--;
                 System.out.println("남은 생명 : " + life);
             }
+        }
+        if(life==0) {
+            System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n실패!\n정답은 " +ans[0]+", "+ans[1]+", "+ans[2] +" 이었습니다!");
         }
 
     }
