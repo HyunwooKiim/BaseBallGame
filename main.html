@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BaseBallGame</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
@@ -79,12 +79,32 @@
             display: table-cell;
             vertical-align: middle;
         }
+        .left{
+            height: 37px;
+            width: 60px;
+            float: left;
+        }
+        .login{
+            vertical-align: middle;
+        }
+        .loginbox{
+            height: 50px;
+            width: 100px;
+            float: right;
+            margin: 30px;
+            background-color: gray;
+            margin: none;
+        }
+        
     </style>
 </head>
 <body>
-    <br>
+    <img class="left" src="baseball.png">   
+    <div class="loginbox">
+        <h2 class="login">로그인</h2>
+    </div>
+    <hr>
     <h1>--야구게임--</h1>
-    <br>
     <img class="bbimg" src="baseballimg.jpg">
     <br><br><br><br>
     
@@ -100,7 +120,7 @@
             <span class="rule__text"><br><b>룰 설명</b></span>
         </a>
     </div>
-    <br><br>
+    <br>
     <div class="option"> 
         <a href="option.html">
             <span class="option__text"><br><b>설정</b></span>
