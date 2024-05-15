@@ -1,25 +1,25 @@
-.loginletter{
+.signinletter{
     margin-top: 40px;
 }
 .blackbox{
     height: 65px;
     background-color: black;
 }
-.login-wrapper{
+.signin-wrapper{
 width: 400px;
-height: 350px;
+height: 250px;
 padding: 40px;
 box-sizing: border-box;
 margin: 0 auto;
 margin-bottom: 10px;
 }
 
-.login-wrapper > h2{
+.signin-wrapper > h2{
 font-size: 24px;
 color: white;
 margin-bottom: 20px;
 }
-#login-form > input{
+#signin-form > input{
 width: 100%;
 height: 48px;
 padding: 0 10px;
@@ -28,24 +28,16 @@ margin-bottom: 16px;
 border-radius: 6px;
 background-color: #F8F8F8;
 }
-#login-form > input::placeholder{
+#signin-form > input::placeholder{
 color: #D2D2D2;
 }
-#login-form > input[type="submit"]{
-color: #fff;
-font-size: 16px;
-background-color: gray;
-margin-top: 20px;
-transition: all 0.1s linear;
-}
-#login-form > input[type="submit"]:hover{
-color: #fff;
-background-color: orange;
-}
-.signin{
-    margin: 0px;
-    color: white;
-    text-decoration: none;
+.left{
+    height: 37px;
+    width: 55px;
+    float: left;
+    margin-left: 30px;
+    margin-top: none;
+    
 }
 .signin:hover{
     color: gray;
@@ -56,17 +48,33 @@ background-color: orange;
 .check:hover{
     color: gray;
 }
-.login{
+.signin{
     margin:none;
     margin-bottom: none;
     margin-right: 30px;
     text-align: right;
     transition: all 0.1s linear;
 }
-.login:hover{
+.signin:hover{
     color: gray;
 }
 a{
     color: white;
     text-decoration: none;
+}
+.signinbutton{
+    background-color: gray;
+    margin: 0 auto;
+    transition: all 0.1s linear;
+    border-radius: 10%;
+    height: 50px;
+    width: 150px;
+    display: table;
+}
+.signinbutton:hover{
+    background-color: orange;
+}
+.signinbutton__letter{
+    display: table-cell;
+    vertical-align: middle;
 }
