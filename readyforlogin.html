@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="default.css" rel="stylesheet" type="text/css"   />
+    <link href="login.css" rel="stylesheet" type="text/css"   />
 </head>
 <body>
-    로그인을 하게 되
+    <img class="left" src="baseball.png">
+    <a href="readyforlogin.html">
+        <h2 class="login">로그인</h2>
+   </a>
+    <hr>
+    <div class="login-wrapper">
+        <h2>Login</h2>
+        <form method="post" action="서버의url" id="login-form">
+            <input type="text" name="userName" placeholder="ID">
+            <input type="password" name="userPassword" placeholder="PW">
+            <label for="remember-check" class="check">
+                <input type="checkbox" id="remember-check">아이디 저장하기
+            </label>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <a href="" class="signin">
+        <h4>회원가입</h4>
+    </a>
 </body>
 </html>
