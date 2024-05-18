@@ -3,21 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>se</title>
+    <title>Signin</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     <link href="default.css" rel="stylesheet" type="text/css"   />
-    <style>
-        body{
-            background-color: black;
-            color: white;
-            text-align: center;
-            font-family: "Jua", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-    </style>
+    <link href="signin.css" rel="stylesheet" type="text/css"   />
 </head>
 <body>
     <img class="left" src="baseball.png">  
@@ -32,6 +23,15 @@
         </div>
     </a>
     <hr style="margin-top: 70px;">
-    <h1>게임선택하는곳</h1>
+    <div class="signin-wrapper">
+        <h2>회원가입</h2>
+            <form method="post" action="login.html" id="signin-form">
+            <input type="text" name="userName" placeholder="아이디를 입력하세요">
+            <input type="password" name="userPassword" placeholder="비밀번호를 입력하세요">
+        </form>
+    </div>
+    <a href="login.html">
+        <div class="signinbutton"><h2 class="signinbuttonlet">회원가입</h2></div>
+    </a>
 </body>
 </html>

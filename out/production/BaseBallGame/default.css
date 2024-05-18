@@ -6,3 +6,50 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+.left{
+    height: 37px;
+    width: 55px;
+    margin-left: 30px;
+    margin-top: none;
+    position: fixed;
+    top: 15px;
+    left: 0px;
+}
+.login{
+    color: white;
+    text-decoration: none;
+    margin:none;
+    margin-bottom: none;
+    margin-right: 30px;
+    text-align: center;
+    transition: all 0.1s linear;
+    height: 75px;
+    width: 100px;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    font-size: 32px;
+    line-height: 75px;
+}
+.login:hover{
+    color: gray;
+}
+.home{
+    color: white;
+    text-decoration: none;
+    margin:none;
+    margin-bottom: none;
+    margin-right: 30px;
+    text-align: center;
+    transition: all 0.1s linear;
+    height: 75px;
+    width: 100px;
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    font-size: 32px;
+    line-height: 75px;
+}
+.home:hover{
+    color: gray;
+}
