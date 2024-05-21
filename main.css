@@ -39,10 +39,6 @@
     transform: scale(1.1);
     background-color: orange;
 }
-a{
-    color: white;
-    text-decoration: none;
-}
 .rule{
     position: relative;
     top: 70px;

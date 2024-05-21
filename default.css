@@ -53,3 +53,7 @@ body{
 .home:hover{
     color: gray;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
