@@ -1,0 +1,54 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>se</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="default.css" rel="stylesheet" type="text/css"   />
+    <style>
+        .gamebox{
+            position: relative;
+            top: 250px;
+            width: 300px;
+            height: 60px;
+            background-color: gray;
+            color: white;
+            transition: all 0.1s linear;
+            margin: 0 auto;
+            font-size: 45px;
+            border-radius: 10%;
+            text-align: center;
+            padding-top: 12px;
+        }
+        .gamebox:hover{
+            background-color: orange;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <img class="left" src="baseball.png">  
+    <a href="index.html">
+        <div class="home">
+            홈으로
+         </div>
+    </a>
+    <a href="login.html">
+        <div class="login">
+        로그인
+        </div>
+    </a>
+    <hr style="margin-top: 70px;">
+
+    <h3>컴퓨터가 생각한 3개의 수를 맞춥니다.</h3>
+    <a href="gameeasy.html">
+        <div class="gamebox">게임 호스트</div>
+    </a>
+    <a href="gamenormal.html">
+        <div class="gamebox" style="margin-top: 50px;">게임 참여</div>
+    </a>
+</body>
+</html>
