@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "BaseBallGameProject0512",
+      "request": "launch",
+      "mainClass": "BaseBallGameProject0512",
+      "projectName": "BaseBallGame_fae4743e"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
       "request": "launch",
